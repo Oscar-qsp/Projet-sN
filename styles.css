@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans+Condensed:wght@300;700 & family= Oswald:wght@300 & display=swap'); 
+
+
+*{ 
+    font-family:'Oswald' ;
+}
+body {
+    margin: 0 auto;
+}
+header.header{
+    display: flex;
+    align-items: center;
+    
+    height: 80;
+}
+
+header.header img{
+    width: 150px; 
+}
+
+section.top-page{
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #87CEEB;
+    font-family: fantasy;
+}
+/* page de bienvenue (lading page) */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title{
+    color: whitesmoke;
+    font-size: 80px;
+    font-family: 'Open+Sans+Condensed', cursive;
+    font-weight: 100;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+ 
+    width: 400px;
+    margin-left: 40px;
+
+}
+
+nav.nav li{
+    color: ghostwhite;
+}
